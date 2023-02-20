@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F33054B29A40CEC00D16747 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F33054A29A40CEC00D16747 /* SecondScreen.swift */; };
 		1FF2E4EF29A142E8001670E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2E4EE29A142E8001670E9 /* AppDelegate.swift */; };
 		1FF2E4F129A142E8001670E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2E4F029A142E8001670E9 /* SceneDelegate.swift */; };
 		1FF2E4F329A142E8001670E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2E4F229A142E8001670E9 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F33054A29A40CEC00D16747 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 		1FF2E4EB29A142E8001670E9 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF2E4EE29A142E8001670E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FF2E4F029A142E8001670E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				1FF2E4EE29A142E8001670E9 /* AppDelegate.swift */,
 				1FF2E4F029A142E8001670E9 /* SceneDelegate.swift */,
 				1FF2E4F229A142E8001670E9 /* ViewController.swift */,
+				1F33054A29A40CEC00D16747 /* SecondScreen.swift */,
 				1FF2E4F729A142E9001670E9 /* Assets.xcassets */,
 				1FF2E4F929A142E9001670E9 /* LaunchScreen.storyboard */,
 				1FF2E4FC29A142E9001670E9 /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF2E4F329A142E8001670E9 /* ViewController.swift in Sources */,
+				1F33054B29A40CEC00D16747 /* SecondScreen.swift in Sources */,
 				1FF2E4EF29A142E8001670E9 /* AppDelegate.swift in Sources */,
 				1FF2E4F129A142E8001670E9 /* SceneDelegate.swift in Sources */,
 			);
