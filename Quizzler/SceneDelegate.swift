@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         
-        window.rootViewController = firstScreen()
+        window.rootViewController = UINavigationController(rootViewController: firstScreen())
         self.window = window
         self.window?.makeKeyAndVisible()
         // this bunch of code launches the app the first screen without having storyboard

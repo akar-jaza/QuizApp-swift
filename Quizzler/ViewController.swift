@@ -6,16 +6,16 @@
 //
 
 import UIKit
-
+  
 class firstScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .systemBackground
-        self.title = "First Screen"
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
         
+        self.title = "First Screen"
+        navigationController?.navigationBar.prefersLargeTitles = true
         let trueBtn = UIButton()
         setupButton()
         
@@ -24,7 +24,11 @@ class firstScreen: UIViewController {
             trueBtn.configuration = .filled()
             trueBtn.configuration?.title = "True"
             trueBtn.configuration?.baseBackgroundColor = .systemRed
+
             
+            trueBtn.addTarget(self, action: #selector(goToSecondScreen), for: .touchUpInside)
+            
+         
             trueBtn.translatesAutoresizingMaskIntoConstraints = false
 
             NSLayoutConstraint.activate([
@@ -35,7 +39,12 @@ class firstScreen: UIViewController {
             ])
             
         }
+       
         
+    }
+    
+    @objc func goToSecondScreen() {
+        navigationController?.pushViewController(SecondScreen(), animated: true)
     }
 }
 
