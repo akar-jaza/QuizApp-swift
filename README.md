@@ -8,7 +8,7 @@ Built entirely with **UIKit** using **programmatic UI** — no Storyboards for t
 
 | Question | Correct answer | Wrong answer |
 |----------|----------------|--------------|
-| ![Quiz question](docs/screenshots/quiz-question.png) | ![Correct answer](docs/screenshots/correct-answer.png) | ![Wrong answer](docs/screenshots/wrong-answer.png) |
+| ![Quiz question](docs/screenshots/question-screen.png) | ![Correct answer](docs/screenshots/correct-screen.png) | ![Wrong answer](docs/screenshots/wrong-screen.png) |
 
 ## Features
 
